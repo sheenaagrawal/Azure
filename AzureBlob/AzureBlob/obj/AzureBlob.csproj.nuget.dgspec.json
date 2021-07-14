@@ -1,0 +1,77 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/sheena.agrawal/Projects/AzureBlob/AzureBlob/AzureBlob.csproj": {}
+  },
+  "projects": {
+    "/Users/sheena.agrawal/Projects/AzureBlob/AzureBlob/AzureBlob.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/sheena.agrawal/Projects/AzureBlob/AzureBlob/AzureBlob.csproj",
+        "projectName": "AzureBlob",
+        "projectPath": "/Users/sheena.agrawal/Projects/AzureBlob/AzureBlob/AzureBlob.csproj",
+        "packagesPath": "/Users/sheena.agrawal/.nuget/packages/",
+        "outputPath": "/Users/sheena.agrawal/Projects/AzureBlob/AzureBlob/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/sheena.agrawal/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Autofac": {
+              "target": "Package",
+              "version": "[6.2.0, )"
+            },
+            "Azure.Storage.Blobs": {
+              "target": "Package",
+              "version": "[12.9.1, )"
+            },
+            "WindowsAzure.Storage": {
+              "target": "Package",
+              "version": "[9.3.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.301/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
