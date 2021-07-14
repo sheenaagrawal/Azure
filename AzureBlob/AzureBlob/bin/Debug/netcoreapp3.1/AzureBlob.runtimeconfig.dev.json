@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "/Users/sheena.agrawal/.dotnet/store/|arch|/|tfm|",
+      "/Users/sheena.agrawal/.nuget/packages"
+    ]
+  }
+}
